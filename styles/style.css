@@ -186,10 +186,12 @@ body .container {
   }
 }
 
-.text-center {
+.b-section {
   background-image: url(/images/backgroundImg.png) !important;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #020636;
+  color: #f8f0e3;
 }
 
 .playApple4 {

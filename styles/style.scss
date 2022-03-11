@@ -121,7 +121,7 @@ body {
     .rowAbout {
         line-height: 70px;
         @media screen and (max-width: 996px) {
-           line-height: 30px;
+            line-height: 30px;
         }
         .checkBox {
             width: 20px;
@@ -149,11 +149,12 @@ body {
     }
 }
 
-
-.text-center {
+.b-section {
     background-image: url(/images/backgroundImg.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #020636;
+    color: #f8f0e3;
 }
 
 .playApple4 {
@@ -211,4 +212,3 @@ body {
         display: none;
     }
 }
-

@@ -3,16 +3,10 @@ body {
 }
 
 body .navbar {
-  background-color: #f8f0e3;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #f8f0e3;
-  height: 10vh;
-  position: fixed;
-  z-index: 2;
   width: 100%;
-  top: 0;
+  z-index: 2;
+  background-color: #f8f0e3;
+  color: #f8f0e3;
 }
 
 body .container {
@@ -22,11 +16,6 @@ body .container {
 .nav-link {
   text-decoration: none;
   color: black;
-}
-
-.playApple {
-  position: absolute;
-  right: 5vw;
 }
 
 .playStore {
@@ -42,9 +31,10 @@ body .container {
   border: 1px solid black;
   border-radius: 5px;
   width: 130px;
+  color: #020636;
 }
 
-section {
+.Section-2 {
   background-color: #040833;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -52,22 +42,15 @@ section {
   color: #f8f0e3;
 }
 
-section .solidbox {
+.Section-2 .solidbox {
   background-color: silver;
   border-radius: 5px;
   color: #f8f0e3;
   width: 300px;
+  margin-top: 30px;
 }
 
-section .PlayWhite {
-  background-color: #f8f0e3;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-right: 10px;
-  width: 150px;
-}
-
-section .girlTable {
+.girlTable {
   padding-top: 100px;
 }
 
@@ -75,8 +58,7 @@ section .girlTable {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  bottom: 9vw;
+  padding-top: 20px;
 }
 
 .PlayStore2 {
@@ -96,44 +78,35 @@ section .girlTable {
   border: 1px solid black;
   border-radius: 5px;
   width: 130px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .container3 {
   color: #020636;
   background-color: #f8f0e3;
-  height: 1200px;
 }
 
-.container3 .manTable {
-  position: absolute;
-  left: 10px;
-  top: 770px;
-}
-
-@media screen and (max-width: 996px) {
-  .container3 .manTable {
-    display: none;
-  }
-}
-
-.container3 .AboutUs {
-  position: absolute;
-  right: 10px;
-  bottom: -650px;
-}
-
-.container3 p {
+p {
   line-height: 1.5;
   margin-top: 30px;
 }
 
-.container3 .WhiteplayApple3 {
+.WhiteplayApple3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   margin-bottom: 1000px;
 }
 
-.container3 .WhiteplayApple3 .PlayStore3 {
+@media screen and (max-width: 996px) {
+  .WhiteplayApple3 {
+    display: -ms-grid !important;
+    display: grid !important;
+  }
+}
+
+.WhiteplayApple3 .PlayStore3 {
   background-color: #d65123;
   color: black;
   border: 1px solid;
@@ -144,7 +117,7 @@ section .girlTable {
   height: 60px;
 }
 
-.container3 .WhiteplayApple3 .Apple3 {
+.WhiteplayApple3 .Apple3 {
   background-color: #040833;
   color: white;
   border: 1px solid;
@@ -169,10 +142,6 @@ section .girlTable {
   margin: -250px;
   background-color: #f8f0e3;
   color: black;
-}
-
-.ManAndWoman .rowAbout {
-  height: 800px;
 }
 
 .ManAndWoman .rowAbout .checkBox {
@@ -259,6 +228,22 @@ section .girlTable {
 }
 
 .section5 .lastSection p {
-  line-height: 2.0;
+  line-height: 2;
+}
+
+.playApple {
+  position: absolute;
+  right: 5vw;
+}
+
+@media screen and (max-width: 996px) {
+  .playApple {
+    display: none;
+  }
+}
+
+.manTable {
+  -webkit-transform: translateY(-15vh);
+          transform: translateY(-15vh);
 }
 /*# sourceMappingURL=style.css.map */

@@ -31,7 +31,6 @@ body {
 }
 .Section-2 {
     background-color: #040833;
-    justify-content: flex-start;
     color: #f8f0e3;
     .solidbox {
         background-color: silver;
@@ -67,28 +66,32 @@ body {
 }
 .container3 {
     color: #020636;
-    background-color: #f8f0e3;
+    background-color:#f8f0e3;
+
+    .AboutUs{
+        transform: translateY(7vh);
+        line-height: 1.9;
+    }
+    .WhiteplayApple3 {
+        display: flex;
+        margin-bottom: 1000px;
+        @media screen and (max-width: 996px) {
+            display: grid !important;
+            justify-content: flex-start;
+            margin-top: 5px;
+        }
 }
 
 p {
     line-height: 1.5;
     margin-top: 30px;
 }
-
-.WhiteplayApple3 {
-    display: flex;
-    position: absolute;
-    margin-bottom: 1000px;
-    @media screen and (max-width: 996px) {
-        display: grid !important;
-    }
-
     .PlayStore3 {
         background-color: #d65123;
         color: black;
         border: 1px solid;
         border-radius: 5px;
-        width: 170px;
+        width: 180px;
         margin-top: 70px;
         margin-left: 10px;
         height: 60px;
@@ -98,11 +101,16 @@ p {
         color: white;
         border: 1px solid;
         border-radius: 5px;
-        width: 170px;
+        width: 180px;
         margin-left: 10px;
         height: 60px;
         margin-top: 70px;
         margin-left: 30px;
+        @media screen and (max-width: 996px) {
+            margin-top: 30px;
+            margin-left: 10px;
+            
+        }
     }
 }
 
@@ -203,5 +211,10 @@ p {
     }
 }
 .manTable {
-    transform: translateY(-15vh);
+    transform: translateY(-10vh);
+}
+.AboutUs2{
+    @media screen and (max-width: 996px) {
+        display: none;
+    }
 }

@@ -36,9 +36,6 @@ body .container {
 
 .Section-2 {
   background-color: #040833;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   color: #f8f0e3;
 }
 
@@ -86,47 +83,63 @@ body .container {
   background-color: #f8f0e3;
 }
 
-p {
-  line-height: 1.5;
-  margin-top: 30px;
+.container3 .AboutUs {
+  -webkit-transform: translateY(7vh);
+          transform: translateY(7vh);
+  line-height: 1.9;
 }
 
-.WhiteplayApple3 {
+.container3 .WhiteplayApple3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   margin-bottom: 1000px;
 }
 
 @media screen and (max-width: 996px) {
-  .WhiteplayApple3 {
+  .container3 .WhiteplayApple3 {
     display: -ms-grid !important;
     display: grid !important;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 5px;
   }
 }
 
-.WhiteplayApple3 .PlayStore3 {
+.container3 p {
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.container3 .PlayStore3 {
   background-color: #d65123;
   color: black;
   border: 1px solid;
   border-radius: 5px;
-  width: 170px;
+  width: 180px;
   margin-top: 70px;
   margin-left: 10px;
   height: 60px;
 }
 
-.WhiteplayApple3 .Apple3 {
+.container3 .Apple3 {
   background-color: #040833;
   color: white;
   border: 1px solid;
   border-radius: 5px;
-  width: 170px;
+  width: 180px;
   margin-left: 10px;
   height: 60px;
   margin-top: 70px;
   margin-left: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .container3 .Apple3 {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
 }
 
 .image {
@@ -243,7 +256,13 @@ p {
 }
 
 .manTable {
-  -webkit-transform: translateY(-15vh);
-          transform: translateY(-15vh);
+  -webkit-transform: translateY(-10vh);
+          transform: translateY(-10vh);
+}
+
+@media screen and (max-width: 996px) {
+  .AboutUs2 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

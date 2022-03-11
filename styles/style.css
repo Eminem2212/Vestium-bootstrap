@@ -1,0 +1,264 @@
+body {
+  margin: auto;
+}
+
+body .navbar {
+  background-color: #f8f0e3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #f8f0e3;
+  height: 10vh;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+body .container {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.playApple {
+  position: absolute;
+  right: 5vw;
+}
+
+.playStore {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #020636;
+  color: white;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.apple {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 130px;
+}
+
+section {
+  background-color: #040833;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #f8f0e3;
+}
+
+section .solidbox {
+  background-color: silver;
+  border-radius: 5px;
+  color: #f8f0e3;
+  width: 300px;
+}
+
+section .PlayWhite {
+  background-color: #f8f0e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+section .girlTable {
+  padding-top: 100px;
+}
+
+.WhiteplayApple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 9vw;
+}
+
+.PlayStore2 {
+  background-color: #f8f0e3;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.Apple2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d65123;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 130px;
+  margin-left: 10px;
+}
+
+.container3 {
+  color: #020636;
+  background-color: #f8f0e3;
+  height: 1200px;
+}
+
+.container3 .manTable {
+  position: absolute;
+  left: 10px;
+  top: 770px;
+}
+
+@media screen and (max-width: 996px) {
+  .container3 .manTable {
+    display: none;
+  }
+}
+
+.container3 .AboutUs {
+  position: absolute;
+  right: 10px;
+  bottom: -650px;
+}
+
+.container3 p {
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.container3 .WhiteplayApple3 {
+  position: absolute;
+  margin-bottom: 1000px;
+}
+
+.container3 .WhiteplayApple3 .PlayStore3 {
+  background-color: #d65123;
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 170px;
+  margin-top: 70px;
+  margin-left: 10px;
+  height: 60px;
+}
+
+.container3 .WhiteplayApple3 .Apple3 {
+  background-color: #040833;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 170px;
+  margin-left: 10px;
+  height: 60px;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.image {
+  position: absolute;
+  top: 750px;
+}
+
+.Section-2 {
+  height: 800px;
+}
+
+.ManAndWoman {
+  margin: -250px;
+  background-color: #f8f0e3;
+  color: black;
+}
+
+.ManAndWoman .rowAbout {
+  height: 800px;
+}
+
+.ManAndWoman .rowAbout .checkBox {
+  width: 20px;
+  height: 20px;
+}
+
+.ManAndWoman button {
+  margin-top: 5vh;
+  width: 16vw;
+  min-width: 16vw;
+  height: 6vh;
+  min-height: 6vh;
+  color: #f8f0e3;
+  background-color: #040833;
+  border: 1px solid #040833;
+  border-radius: 5px;
+  border-bottom: #f8f0e3;
+}
+
+@media screen and (max-width: 996px) {
+  .ManAndWoman button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
+    padding: 10px 10px 20px 10px;
+  }
+}
+
+.manwoman {
+  position: absolute;
+  top: 1750px;
+}
+
+.text-center {
+  background-image: url(/images/backgroundImg.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playApple4 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.PlayStore4 {
+  background-color: #d65123;
+  color: #f8f0e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 70px;
+  width: 200px;
+  padding: 0px 15px;
+}
+
+.Apple4 {
+  background-color: #f8f0e3;
+  color: #020636;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 70px;
+  width: 200px;
+  margin-left: 10px;
+  margin-left: 30px;
+  padding: 10px 15px;
+}
+
+.section4 {
+  background-color: #f8f0e3;
+  color: #020636;
+}
+
+.section5 {
+  background-color: #020636;
+  color: #f8f0e3;
+}
+
+.section5 .lastSection {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section5 .lastSection p {
+  line-height: 2.0;
+}
+/*# sourceMappingURL=style.css.map */

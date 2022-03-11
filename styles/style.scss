@@ -66,26 +66,27 @@ body {
 }
 .container3 {
     color: #020636;
-    background-color:#f8f0e3;
+    background-color: #f8f0e3;
 
-    .AboutUs{
+    .AboutUs {
         transform: translateY(7vh);
         line-height: 1.9;
     }
     .WhiteplayApple3 {
         display: flex;
-        margin-bottom: 1000px;
+
         @media screen and (max-width: 996px) {
             display: grid !important;
             justify-content: flex-start;
-            margin-top: 5px;
-        }
-}
 
-p {
-    line-height: 1.5;
-    margin-top: 30px;
-}
+            margin-bottom: 100px;
+        }
+    }
+
+    p {
+        line-height: 1.5;
+        margin-top: 30px;
+    }
     .PlayStore3 {
         background-color: #d65123;
         color: black;
@@ -109,25 +110,19 @@ p {
         @media screen and (max-width: 996px) {
             margin-top: 30px;
             margin-left: 10px;
-            
         }
     }
 }
 
-.image {
-    position: absolute;
-    top: 750px;
-}
-.Section-2 {
-    height: 800px;
-}
-
 .ManAndWoman {
-    margin: -250px;
     background-color: #f8f0e3;
     color: black;
 
     .rowAbout {
+        line-height: 70px;
+        @media screen and (max-width: 996px) {
+           line-height: 30px;
+        }
         .checkBox {
             width: 20px;
             height: 20px;
@@ -137,7 +132,9 @@ p {
         @media screen and (max-width: 996px) {
             display: flex;
             width: 150px;
-            padding: 10px 10px 20px 10px;
+            margin-left: 10px;
+            padding: 10px 45px 30px 20px;
+            cursor: pointer;
         }
         margin-top: 5vh;
         width: 16vw;
@@ -152,10 +149,6 @@ p {
     }
 }
 
-.manwoman {
-    position: absolute;
-    top: 1750px;
-}
 
 .text-center {
     background-image: url(/images/backgroundImg.png) !important;
@@ -213,8 +206,9 @@ p {
 .manTable {
     transform: translateY(-10vh);
 }
-.AboutUs2{
+.AboutUs2 {
     @media screen and (max-width: 996px) {
         display: none;
     }
 }
+

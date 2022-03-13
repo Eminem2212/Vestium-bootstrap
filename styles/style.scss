@@ -41,7 +41,10 @@ body {
     }
 }
 .girlTable {
-    padding-top: 100px;
+    padding-top: 80px;
+    @media screen and (max-width: 996px) {
+       margin-top: 0px;
+    }
 }
 
 .WhiteplayApple {
@@ -61,7 +64,7 @@ body {
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 130px;
+    width: 150px;
     margin-left: 30px;
 }
 .container3 {
@@ -213,7 +216,10 @@ margin-left: 30px;
     }
 }
 .manTable {
-    transform: translateY(-10vh);
+    transform: translateY(-9vh);
+    @media screen and (max-width: 996px) {
+        margin-top: 40px;
+     }
 }
 .AboutUs2 {
     @media screen and (max-width: 996px) {
@@ -222,6 +228,7 @@ margin-left: 30px;
 }
 .iphoneV {
     padding-left: 250px;
+    margin-bottom: 30px;
     @media screen and (max-width: 996px) {
         display: none;
     }

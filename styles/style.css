@@ -48,7 +48,13 @@ body .container {
 }
 
 .girlTable {
-  padding-top: 100px;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 996px) {
+  .girlTable {
+    margin-top: 0px;
+  }
 }
 
 .WhiteplayApple {
@@ -74,7 +80,7 @@ body .container {
   color: white;
   border: 1px solid black;
   border-radius: 5px;
-  width: 130px;
+  width: 150px;
   margin-left: 30px;
 }
 
@@ -266,8 +272,14 @@ body .container {
 }
 
 .manTable {
-  -webkit-transform: translateY(-10vh);
-          transform: translateY(-10vh);
+  -webkit-transform: translateY(-9vh);
+          transform: translateY(-9vh);
+}
+
+@media screen and (max-width: 996px) {
+  .manTable {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 996px) {
@@ -278,6 +290,7 @@ body .container {
 
 .iphoneV {
   padding-left: 250px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 996px) {

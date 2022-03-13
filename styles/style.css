@@ -198,6 +198,14 @@ body .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 996px) {
+  .playApple4 {
+    display: -ms-grid !important;
+    display: grid !important;
+  }
 }
 
 .PlayStore4 {
@@ -205,9 +213,8 @@ body .container {
   color: #f8f0e3;
   border: 1px solid black;
   border-radius: 5px;
-  height: 70px;
   width: 200px;
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 
 .Apple4 {
@@ -215,11 +222,16 @@ body .container {
   color: #020636;
   border: 1px solid black;
   border-radius: 5px;
-  height: 70px;
-  width: 200px;
-  margin-left: 10px;
   margin-left: 30px;
+  width: 200px;
   padding: 10px 15px;
+}
+
+@media screen and (max-width: 996px) {
+  .Apple4 {
+    margin-top: 30px;
+    margin-left: 6px;
+  }
 }
 
 .section4 {
@@ -261,6 +273,23 @@ body .container {
 @media screen and (max-width: 996px) {
   .AboutUs2 {
     display: none;
+  }
+}
+
+.iphoneV {
+  padding-left: 250px;
+}
+
+@media screen and (max-width: 996px) {
+  .iphoneV {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .text-center1 {
+    font-weight: 10px !important;
+    font-size: 20px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

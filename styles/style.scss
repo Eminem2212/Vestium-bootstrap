@@ -159,26 +159,34 @@ body {
 
 .playApple4 {
     justify-content: center;
+    margin-top: 50px;
+
+    @media screen and (max-width: 996px) {
+        display: grid !important;
+    }
 }
 .PlayStore4 {
     background-color: #d65123;
     color: #f8f0e3;
     border: 1px solid black;
     border-radius: 5px;
-    height: 70px;
+
     width: 200px;
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 .Apple4 {
     background-color: #f8f0e3;
     color: #020636;
     border: 1px solid black;
     border-radius: 5px;
-    height: 70px;
+margin-left: 30px;
     width: 200px;
-    margin-left: 10px;
-    margin-left: 30px;
-    padding: 10px 15px;
+    padding: 10px 15px ;
+    @media screen and (max-width: 996px) {
+        margin-top: 30px;
+        margin-left: 6px;
+      
+    }
 }
 
 .section4 {
@@ -212,3 +220,16 @@ body {
         display: none;
     }
 }
+.iphoneV {
+    padding-left: 250px;
+    @media screen and (max-width: 996px) {
+        display: none;
+    }
+}
+.text-center1{
+    @media screen and (max-width: 996px) {
+        font-weight: 10px !important;
+        font-size: 20px !important;
+    }  
+}
+

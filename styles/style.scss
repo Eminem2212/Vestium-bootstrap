@@ -1,10 +1,16 @@
 body {
     margin: auto;
     .navbar {
+        position: fixed;
         width: 100%;
         z-index: 2;
         background-color: #f8f0e3;
         color: #f8f0e3;
+        @media screen and (max-width: 996px) {
+            position: fixed;
+            width: 100%;
+            z-index: 2; 
+        }
     }
     .container {
         text-decoration: none;
@@ -38,11 +44,11 @@ body {
         border-radius: 5px;
         color: #f8f0e3;
         width: 300px;
-        margin-top: 30px;
+        margin-top: 130px;
     }
 }
 .girlTable {
-    padding-top: 80px;
+    padding-top: 200px;
     @media screen and (max-width: 996px) {
         margin-top: 0px;
     }
@@ -51,6 +57,10 @@ body {
 .WhiteplayApple {
     display: flex;
     padding-top: 20px;
+    @media screen and (max-width: 996px) {
+        width: 200px;
+    }
+
 }
 .PlayStore2 {
     background-color: #f8f0e3;
@@ -216,7 +226,7 @@ body {
     }
 }
 .manTable {
-    transform: translateY(-20vh);
+    transform: translateY(-15vh);
     @media screen and (max-width: 996px) {
         margin-top: 40px;
     }

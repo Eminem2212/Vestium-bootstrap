@@ -37,6 +37,7 @@ body .container {
 .Section-2 {
   background-color: #040833;
   color: #f8f0e3;
+  height: 800px;
 }
 
 .Section-2 .solidbox {
@@ -272,8 +273,8 @@ body .container {
 }
 
 .manTable {
-  -webkit-transform: translateY(-9vh);
-          transform: translateY(-9vh);
+  -webkit-transform: translateY(-20vh);
+          transform: translateY(-20vh);
 }
 
 @media screen and (max-width: 996px) {
@@ -304,5 +305,27 @@ body .container {
     font-weight: 10px !important;
     font-size: 20px !important;
   }
+}
+
+.Dress {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 996px) {
+  .Dress {
+    font-size: 30px;
+  }
+}
+
+.DressText {
+  border-radius: 100%;
+  border: 2px solid #d65123;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.look {
+  color: #d65123;
 }
 /*# sourceMappingURL=style.css.map */

@@ -32,6 +32,7 @@ body {
 .Section-2 {
     background-color: #040833;
     color: #f8f0e3;
+    height: 800px;
     .solidbox {
         background-color: silver;
         border-radius: 5px;
@@ -215,7 +216,7 @@ body {
     }
 }
 .manTable {
-    transform: translateY(-9vh);
+    transform: translateY(-20vh);
     @media screen and (max-width: 996px) {
         margin-top: 40px;
     }
@@ -237,4 +238,19 @@ body {
         font-weight: 10px !important;
         font-size: 20px !important;
     }
+}
+.Dress{
+font-size: 60px;
+@media screen and (max-width: 996px) {
+   font-size: 30px;
+}
+}
+.DressText{
+   border-radius: 100%;
+   border: 2px solid #d65123; 
+   box-sizing: border-box;
+   padding: 15px;
+}
+.look{
+    color: #d65123;
 }

@@ -32,7 +32,7 @@ body .container {
   border-radius: 5px;
   background-color: #020636;
   color: white;
-  margin-right: 10px;
+  margin-right: 0px;
   width: 130px;
 }
 
@@ -372,5 +372,11 @@ body .container {
     display: grid;
     font-size: smaller;
   }
+}
+
+.aboutwork {
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
 }
 /*# sourceMappingURL=style.css.map */

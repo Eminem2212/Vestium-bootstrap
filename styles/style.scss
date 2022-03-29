@@ -9,7 +9,7 @@ body {
         @media screen and (max-width: 996px) {
             position: fixed;
             width: 100%;
-            z-index: 2; 
+            z-index: 2;
         }
     }
     .container {
@@ -38,7 +38,7 @@ body {
 .Section-2 {
     background-color: #040833;
     color: #f8f0e3;
-    height: 800px;
+    min-height: 100vh;
     .solidbox {
         background-color: silver;
         border-radius: 5px;
@@ -50,35 +50,37 @@ body {
 .girlTable {
     padding-top: 200px;
     @media screen and (max-width: 996px) {
-        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 10vh;
     }
 }
 
 .WhiteplayApple {
     display: flex;
-    padding-top: 20px;
+    padding-top: 1px;
     @media screen and (max-width: 996px) {
         width: 100%;
-        height: 90px;
+        
     }
-
 }
 .PlayStore2 {
     background-color: #f8f0e3;
     color: black;
     border: 1px solid black;
     border-radius: 5px;
-    width: 150px;
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 .Apple2 {
-    display: flex;
     background-color: #d65123;
-    color: white;
+    color:#f8f0e3;
     border: 1px solid black;
     border-radius: 5px;
-    width: 150px;
-    margin-left: 30px;
-    padding: 10px 5px 5px 5px;
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 10px;
+    padding: 5px;
 
 }
 .container3 {
@@ -217,7 +219,7 @@ body {
     .lastSection {
         justify-content: space-between;
         @media screen and (min-width: 996px) {
-           display: grid;
+            display: grid;
         }
 
         p {
@@ -233,7 +235,7 @@ body {
     }
 }
 .manTable {
-    transform: translateY(-15vh);
+    transform: translateY(-11vh);
     @media screen and (max-width: 996px) {
         margin-top: 40px;
     }
@@ -256,28 +258,28 @@ body {
         font-size: 20px !important;
     }
 }
-.Dress{
-font-size: 60px;
-@media screen and (max-width: 996px) {
-   font-size: 30px;
+.Dress {
+    font-size: 60px;
+    @media screen and (max-width: 996px) {
+        font-size: 30px;
+    }
 }
+.DressText {
+    border-radius: 100%;
+    border: 2px solid #d65123;
+    box-sizing: border-box;
+    padding: 10px;
 }
-.DressText{
-   border-radius: 100%;
-   border: 2px solid #d65123; 
-   box-sizing: border-box;
-   padding: 10px;
-}
-.look{
+.look {
     color: #d65123;
 }
-.lastText{
+.lastText {
     padding-top: 30px;
-   justify-content: space-between; 
-   display: flex;
-   @media screen and (max-width: 996px) {
-       justify-content: space-between;
-    display: grid;
-    font-size: smaller;
-}
+    justify-content: space-between;
+    display: flex;
+    @media screen and (max-width: 996px) {
+        justify-content: space-between;
+        display: grid;
+        font-size: smaller;
+    }
 }
